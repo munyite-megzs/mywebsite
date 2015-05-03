@@ -1,0 +1,80 @@
+
+body{
+	background-color: #291A39;
+
+}
+body p{
+	color: white
+
+}
+body h1{
+	color: white
+
+}
+.container{
+	/*background-image: url(http://p1.pichost.me/640/72/1963765.jpg);*/
+	
+	padding-bottom: 200px;
+	margin: 0,20px;
+}
+#topdiv{
+	height: 500px;
+   /* background-image: url("../images/img2.jpg");*/
+background-image: url(http://p1.pichost.me/i/72/1963765.jpg);
+    background-repeat: no-repeat;
+    width: 1500px;
+    margin-bottom: 100px;
+    
+
+
+}
+
+#topdiv h1{
+color: #620021;
+padding-top: 200px;
+
+}
+
+#about h1{
+	text-align: center;
+}
+
+#about hr{
+	width: 50%;
+}
+
+#social{
+	  width: 300px;
+   height: 300px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -150px;
+   margin-top: -150px;
+   
+}
+
+
+.socialmedia h1 {
+	text-align: center;
+
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+footer{
+	text-align: center;
+}
+
+.socialmedia hr{
+	width: 50%;
+}
+
+
+
+
+
