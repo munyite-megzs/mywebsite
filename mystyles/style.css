@@ -1,39 +1,33 @@
 
-body{
-	background-color: #291A39;
+*{
+	margin: 0;
+	padding: 0;
+}
 
-}
-body p{
-	color: white
-
-}
-body h1{
-	color: white
-
-}
-.container{
-	/*background-image: url(http://p1.pichost.me/640/72/1963765.jpg);*/
-	
-	padding-bottom: 200px;
-	margin: 0,20px;
-}
 #topdiv{
 	height: 500px;
    /* background-image: url("../images/img2.jpg");*/
-background-image: url(http://p1.pichost.me/i/72/1963765.jpg);
+background-image: url("../images/back.JPG");
     background-repeat: no-repeat;
-    width: 1500px;
-    margin-bottom: 100px;
+    width: 100%;
+    background-size: cover;
+  background-color: pink;
+  text-align: center;
+  padding-top: 250px;
+
+   
     
 
 
 }
 
 #topdiv h1{
-color: #620021;
-padding-top: 200px;
+  padding: 50px,0px;
+
 
 }
+
+
 
 #about h1{
 	text-align: center;
@@ -43,7 +37,23 @@ padding-top: 200px;
 	width: 50%;
 }
 
-#social{
+.images{
+  height:500px;
+  width: 100%;
+  background: #55e6c5;
+  z-index: 1;/*this puts the image beneath the te*/
+}
+
+
+.containers{
+  height:500px;
+  width: 100%;
+  background: white;
+  z-index: 2;
+
+}
+
+/*#social{
 	  width: 300px;
    height: 300px;
    position: absolute;
@@ -52,7 +62,10 @@ padding-top: 200px;
    margin-left: -150px;
    margin-top: -150px;
    
-}
+}*/
+
+
+
 
 
 .socialmedia h1 {
@@ -74,7 +87,31 @@ footer{
 	width: 50%;
 }
 
+#firstnav{
+	background-color: #FFFFFF;
+}
 
+nav li{
+
+    
+    margin-top: 30px;
+    padding-left: 200px;
+	
+}
+
+
+#img1{
+  background-image: url("../images/first.jpg");
+  background-attachment: fixed;
+
+   /* background-image: url("../images/img2.jpg");*/
+}
+#img2{
+  background-image: url("../images/third.jpg");
+  background-attachment: fixed;
+
+   /* background-image: url("../images/img2.jpg");*/
+}
 
 
 
