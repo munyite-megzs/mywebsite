@@ -10,39 +10,46 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- My styles  -->
     <link rel="stylesheet" type="text/css" href="mystyles/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 
 
 
 </head>
 <body>
-<div class="container-fluid">
-	<nav class="navbar navbar-inverse navbar-fixed-top" id="firstnav">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Margaret Sitati</a>
-    </div>
-    <div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#topdiv">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portforlio</a></li>
-        <li><a href="#connect">Connect</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+ <div class="container-fluid" id="bodydiv">
+            	<nav class="navbar navbar-inverse navbar-fixed-top" id="firstnav">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a style="background-color:#7F6B88" class="navbar-brand" href="#">MS</a>
+                </div>
+                <div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#topdiv">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
 
-<!-- Start of top div -->
-<div class="images" id="topdiv">
+ <!-- Start of top div -->
+     <div class="container images" id="topdiv">
 
-      <div  >
-       <h1>Creativity Competence Experience! </h1>
-     <hr/>
-  </div>
+      <div class="row" ><!-- 
+       <h1>Creativity Competence Experience! </h1> -->
+       <div class="col-sm-12">
+          <h1>I AM MARGARET SITATI.</h1>
+       
+       <h2>Web dev | UX | Mobile dev .</h2>
+       </div>
+      
+
+      </div>
     
     
   
- </div>
+     </div>
  <!-- End of top div -->
 
  <!-- start of about -->
@@ -53,9 +60,14 @@
   			<hr/>
   		</div>
 
-  		<div>
-  			<p>Top level performer with skills in mobile software engineering(Android, Windows, Website, UI/UX) and Leadership. I am a team player, have excellent communication skills and believe in customer satisfaction. I also have a Passion for music and entrepreneurship.</p>
-  </div>
+  		<div class=" row desc">
+      <div class="col-sm-12">
+        <p>Top level performer with skills in mobile software engineering<br>
+        (Android, Windows, HTML5, CSS3, Javascript, UI/UX) and Leadership. <br>
+        I am a team player, have excellent communication skills and believe in customer satisfaction. <br>I also have a Passion for music and entrepreneurship.</p>
+      </div>
+  			
+       </div>
 
   </div>
 
@@ -72,33 +84,45 @@
 
     <!-- end of img i -->
 
-  <div class="containers" id="portfolio">
-
-  <div>
+  <div class="container" id="portfolio">
+    <div class="row">
+      <div class="col-sm-12">
         <h1>PORTFOLIO</h1>
         <hr/>
       </div>
-
-  <div class="col-sm-4">
-      <h3>Daily Devotion</h3>
-      <a href="http://www.windowsphone.com/en-ke/store/app/dailydevotion/65ae5e30-ef36-4aab-b1ad-2fe4a5ff190a"><img src="images/work1.jpg"></a>
-   </div>
-
-
-    <div class="col-sm-4">
-      <h3>Daily Devotion</h3>
-      <a href="http://www.windowsphone.com/en-ke/store/app/dailydevotion/65ae5e30-ef36-4aab-b1ad-2fe4a5ff190a"><img src="images/work2.jpg"></a>
     </div>
+        <div class="row">
+          <div class="col-sm-4 ">
+            <h3>Mpishi Android app</h3>
+            <div class="folio">
+               <a href=""><img style="height:300px; width:366px" src="images/mpishi.png"></a>
+            </div>
+           
+         </div>
+
+
+          <div class="col-sm-4">
+            <h3>Nai tech Events</h3>
+             <div class="folio">
+              <a href="http://localhost:3000"><img  style="height:300px; width:366px" src="images/nai.png"></a>
+            </div>
+            
+          </div>
 
 
 
-    <div class="col-sm-4">
-      <h3>Daily Devotion</h3>
-      <a href="http://www.windowsphone.com/en-ke/store/app/dailydevotion/65ae5e30-ef36-4aab-b1ad-2fe4a5ff190a"><img src="images/work3.jpg"></a>
-    </div>
+          <div class="col-sm-4">
+            <h3>CKBK Simulator</h3>
+             <div class="folio">
+              <a href="http://munyite-megzs.github.io/ckbksimulator/"><img style="height:300px; width:366px" src="images/ckbk.png"></a>
+            </div>
+            
+          </div>
+
+         </div>
   </div>
 
-  </div>
+  
  
 
  <div class="images" id="img2">
@@ -106,16 +130,20 @@
 
    </div>
 
-  <div id="connect">
+  <div class="container" id="connect">
 
-  <div class="socialmedia">
-  			<h1>Connect</h1>
-  			<hr/>
-  		</div>
+  <div class=" row socialmedia">
+   <div class="col-sm-12">
+     <h1>Connect</h1>
+        <hr/>
+
+   </div>
+  			
+  </div>
 
 
 
-  		<div class="socialmedia" >
+  		<div class=" row socialmedia" >
     <div class="col-sm-3">
 
       <a href="https://plus.google.com/"><img  clas= "display" src="images/google.png"></a>
@@ -138,8 +166,9 @@
      
     </div>
   </div>
+  </div>
 
-  		<div  >
+  		
 
   		
   		
@@ -155,10 +184,10 @@
   		
   			
 
-  		</div>
+  		
       
  
-  </div>
+  
 
 
 
@@ -170,16 +199,11 @@
 
 
 
-<!-- Material Design for Bootstrap -->
-   <!--  /*<script src="dist/js/material.min.js"></script>
-    <script src="dist/js/ripples.min.js"></script>
-    <script>
-      $.material.init();
-    </script>*/ -->
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    </div>
 </body>
 </html>
